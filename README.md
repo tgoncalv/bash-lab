@@ -9,6 +9,7 @@ Workspace containing all the bash scripts that I coded for my personal needs.
 - [My scripts](#my-scripts)
   - [bash-test](#bash-test)
   - [filesnames-digit](#filesnames-digit)
+  - [autocrypt](#autocrypt)
 <!--toc:end-->
 
 ## How to learn bash
@@ -44,3 +45,7 @@ Otherwise, the files would be renamed like this:
 - 101_filename
 
 This script is useful as it helps ordering the files when displayed in the workspace. In fact `10` can sometimes be displayed before `2` because the sorting method would say that `1 < 2` without taking into account the number `10` as a single number.
+
+### [autocrypt](./bash-lab/autocrypt/)
+
+Allow encrypting/decrypting a disk using `tcrypt`.
